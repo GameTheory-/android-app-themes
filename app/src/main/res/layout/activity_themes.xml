@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:id="@+id/activityThemes" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/colorsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/choose_a_color"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/blue_theme"
+            android:id="@+id/blueTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/red_theme"
+            android:id="@+id/redTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/black_theme"
+            android:id="@+id/blackTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/yellow_theme"
+            android:id="@+id/yellowTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/orange_theme"
+            android:id="@+id/orangeTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/pink_theme"
+            android:id="@+id/pinkTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/purple_theme"
+            android:id="@+id/purpleTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/green_theme"
+            android:id="@+id/greenTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/grey_theme"
+            android:id="@+id/greyTheme"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:id="@+id/bgTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/choose_a_background"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="?attr/colorButtonNormal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/dark_bg"
+            android:id="@+id/darkBG"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/grey_theme"
+            android:id="@+id/greyBG"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/black_theme"
+            android:id="@+id/blackBG"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4a4a4a" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:text="@string/white_bg"
+            android:id="@+id/whiteBG"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

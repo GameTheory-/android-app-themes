@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App Themes</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="blue_theme">BLUE</string>
+    <string name="red_theme">RED</string>
+    <string name="my_themes">Themes</string>
+    <string name="action_my_themes">THEMES</string>
+    <string name="black_theme">BLACK</string>
+    <string name="yellow_theme">YELLOW</string>
+    <string name="orange_theme">ORANGE</string>
+    <string name="pink_theme">PINK</string>
+    <string name="purple_theme">PURPLE</string>
+    <string name="green_theme">GREEN</string>
+    <string name="grey_theme">GREY</string>
+    <string name="dark_bg">DARK</string>
+    <string name="choose_a_background">BACKGROUNDS</string>
+    <string name="choose_a_color">COLORS</string>
+    <string name="white_bg">WHITE</string>
+</resources>

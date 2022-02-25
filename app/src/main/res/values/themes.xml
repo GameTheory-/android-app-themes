@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="BlueTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#1565C0</item>
+        <item name="colorPrimaryDark">#1256a4</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#c11111</item>
+        <item name="colorPrimaryDark">#B10E0E</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="BlackTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">#434343</item>
+        <item name="colorControlHighlight">#222222</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="YellowTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#edb200</item>
+        <item name="colorPrimaryDark">#dca400</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="OrangeTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#FF5722</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="PinkTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#D81B60</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorPrimaryDark">#8E24AA</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="GreenTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#43A047</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+
+    <style name="GreyTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#9E9E9E</item>
+        <item name="colorPrimaryDark">#8b8b8b</item>
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorButtonNormal">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">#40000000</item>
+        <item name="android:statusBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">?attr/colorPrimary</item>
+    </style>
+</resources>
